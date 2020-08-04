@@ -9,7 +9,7 @@ from torch.autograd import Variable
 from torch.optim.lr_scheduler import MultiStepLR, StepLR
 import copy
 import torch.utils.data as tdata
-from stockmarket import Model, predict, get_accuracy, get_horizon, get_filename, get_unseendata
+from train import Model, predict, get_accuracy, get_horizon, get_filename, get_unseendata
 import sys
 
 try:
